@@ -12,8 +12,6 @@ init()
 def main():
     os.system('cls')
 
-    # Props to Cube for helping me with the printing problem heh....
-
     def successful(username, password):
         sys.stdout.write(Fore.GREEN + "Successfully created account! Check accounts.txt for details.")
         open('accounts.txt', 'w').write(''+ username +':'+ password +'')
